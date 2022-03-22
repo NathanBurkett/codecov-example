@@ -1,3 +1,5 @@
 const one = require('./one.js');
 
-it.todo('one returns true');
+it('one returns true', () => {
+    expect(one({item: 'one'})).toEqual(true);
+});
