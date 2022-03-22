@@ -9,4 +9,4 @@ jobs:
       - name: install
         run: npm i
       - name: test
-        run: npm test -- --ci --coverage && codecov
+        run: npm test -- --ci --coverage
